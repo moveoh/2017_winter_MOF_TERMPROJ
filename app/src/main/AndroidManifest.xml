@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.example.han.a2017_autumn_season_termproj">
+
+    <application
+        android:allowBackup="true"
+        android:icon="@mipmap/ic_launcher"
+        android:label="@string/app_name"
+        android:roundIcon="@mipmap/ic_launcher_round"
+        android:supportsRtl="true"
+        android:theme="@style/AppTheme">
+        <activity android:name=".MainActivity">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name=".BoardActivity"
+            android:label="게시판 엑티비티" />
+        <activity
+            android:name=".PhonebookActivity"
+            android:label="전화번호부 엑티비티" />
+        <activity
+            android:name=".PicsActivity"
+            android:label="사진첩 엑티비티" />
+        <activity
+            android:name=".TimetableActivity"
+            android:label="시간표 엑티비티" />
+        <activity
+            android:name=".SetupActivity"
+            android:label="설정 엑티비티" />
+        <activity
+            android:name=".BoardWriteActivity"
+            android:label="게시글 작성 엑티비티" />
+        <activity android:name=".LoadingActivity" android:theme="@android:style/Theme.NoTitleBar.Fullscreen"></activity>
+
+    </application>
+
+</manifest>

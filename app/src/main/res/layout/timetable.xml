@@ -1,0 +1,271 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical" android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <TableLayout
+        android:id="@+id/header"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="2dp"
+        android:layout_marginRight="2dp">
+
+        <TableRow>
+
+            <LinearLayout
+                android:layout_weight="1"
+                android:orientation="vertical">
+
+                <TextView
+                    android:layout_height="match_parent"
+                    android:layout_width="match_parent"
+                    android:background="#ffcccccc"
+                    android:gravity="center_horizontal"
+                    android:text="Time"
+                    android:textColor="@android:color/black" />
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:textAlignment="center"
+                    android:text="10:00"/>
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:textAlignment="center"
+                    android:text="11:00"/>
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:textAlignment="center"
+                    android:text="12:00"/>
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:textAlignment="center"
+                    android:text="13:00"/>
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:textAlignment="center"
+                    android:text="14:00"/>
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:textAlignment="center"
+                    android:text="15:00"/>
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:textAlignment="center"
+                    android:text="16:00"/>
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:textAlignment="center"
+                    android:text="17:00"/>
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:textAlignment="center"
+                    android:text="18:00"/>
+            </LinearLayout>
+            //월
+            <LinearLayout
+                android:layout_weight="1"
+                android:orientation="vertical"
+                android:weightSum="1">
+                <TextView
+                    android:id="@+id/textView13"
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:gravity="center_horizontal"
+                    android:text="Mon"
+                    android:textColor="@android:color/black" />
+
+                <TextView
+                    android:id="@+id/textView14"
+                    android:layout_width="match_parent"
+                    android:layout_height="82dp"
+                    android:layout_weight="1.30"
+                    android:gravity="center_horizontal"
+                    android:textColor="@android:color/black" />
+
+                <TextView
+                    android:id="@+id/mof1"
+                    android:layout_width="match_parent"
+                    android:layout_height="33dp"
+                    android:layout_weight="1.12"
+                    android:background="#ef9a9a"
+                    android:gravity="center_horizontal"
+                    android:text="모바일"
+                    android:textAlignment="center"
+                    android:textColor="@android:color/black" />
+            </LinearLayout>
+            //화
+            <LinearLayout
+                android:layout_weight="1"
+                android:orientation="vertical"
+                android:weightSum="1">
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:gravity="center_horizontal"
+                    android:text="Tue"
+                    android:textColor="@android:color/black" />
+
+                <TextView
+                    android:id="@+id/vision1"
+                    android:layout_width="match_parent"
+                    android:layout_height="34dp"
+                    android:layout_weight="1.12"
+                    android:background="#ffd180"
+                    android:gravity="center_horizontal"
+                    android:text="영상비전"
+                    android:textAlignment="center"
+                    android:textColor="@android:color/black" />
+
+                <TextView
+                    android:id="@+id/textView16"
+                    android:layout_width="match_parent"
+                    android:layout_height="48dp" />
+
+                <TextView
+                    android:id="@+id/indb1"
+                    android:layout_width="match_parent"
+                    android:layout_height="33dp"
+                    android:layout_weight="1.12"
+                    android:background="#ce93d8"
+                    android:gravity="center_horizontal"
+                    android:text="DB"
+                    android:textAlignment="center"
+                    android:textColor="@android:color/black" />
+            </LinearLayout>
+
+
+            //수
+            <LinearLayout
+                android:layout_weight="1"
+                android:orientation="vertical"
+                android:weightSum="1">
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:gravity="center_horizontal"
+                    android:text="Wed"
+                    android:textColor="@android:color/black" />
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="65dp" />
+
+                <TextView
+                    android:id="@+id/emba1"
+                    android:layout_width="match_parent"
+                    android:layout_height="33dp"
+                    android:layout_weight="1.12"
+                    android:background="#a5d6a7"
+                    android:gravity="center_horizontal"
+                    android:text="임베디드"
+                    android:textAlignment="center"
+                    android:textColor="@android:color/black" />
+
+                <TextView
+                    android:id="@+id/mof2"
+                    android:layout_width="match_parent"
+                    android:layout_height="33dp"
+                    android:layout_weight="1.12"
+                    android:background="#ef9a9a"
+                    android:gravity="center_horizontal"
+                    android:text="모바일"
+                    android:textAlignment="center"
+                    android:textColor="@android:color/black" />
+            </LinearLayout>
+
+            //목
+            <LinearLayout
+                android:layout_weight="1"
+                android:orientation="vertical"
+                android:weightSum="1">
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:gravity="center_horizontal"
+                    android:text="Thu"
+                    android:textColor="@android:color/black" />
+
+
+                <TextView
+                    android:id="@+id/soen1"
+                    android:layout_width="match_parent"
+                    android:layout_height="49dp"
+                    android:layout_weight="1.12"
+                    android:background="#8c9eff"
+                    android:gravity="center_horizontal"
+                    android:text="소공"
+                    android:textAlignment="center"
+                    android:textColor="@android:color/black" />
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="16dp" />
+
+                <TextView
+                    android:id="@+id/vision2"
+                    android:layout_width="match_parent"
+                    android:layout_height="33dp"
+                    android:layout_weight="1.12"
+                    android:background="#ffd180"
+                    android:gravity="center_horizontal"
+                    android:text="영비처"
+                    android:textAlignment="center"
+                    android:textColor="@android:color/black" />
+            </LinearLayout>
+
+            //금
+            <LinearLayout
+                android:layout_weight="1"
+                android:orientation="vertical"
+                android:weightSum="1">
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:gravity="center_horizontal"
+                    android:text="Fri"
+                    android:textColor="@android:color/black" />
+
+
+                <TextView
+                    android:id="@+id/indb2"
+                    android:layout_width="match_parent"
+                    android:layout_height="33dp"
+                    android:layout_weight="1.12"
+                    android:background="#ce93d8"
+                    android:gravity="center_horizontal"
+                    android:text="DB"
+                    android:textAlignment="center"
+                    android:textColor="@android:color/black" />
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="48dp" />
+
+                <TextView
+                    android:id="@+id/emba2"
+                    android:layout_width="match_parent"
+                    android:layout_height="33dp"
+                    android:layout_weight="1.12"
+                    android:background="#a5d6a7"
+                    android:gravity="center_horizontal"
+                    android:text="임베디드"
+                    android:textAlignment="center"
+                    android:textColor="@android:color/black" />
+            </LinearLayout>
+        </TableRow>
+    </TableLayout>
+
+    <Button
+        android:id="@+id/timetable_back"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="돌아가기"/>
+</LinearLayout>
